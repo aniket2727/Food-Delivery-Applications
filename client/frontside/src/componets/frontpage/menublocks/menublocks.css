@@ -1,0 +1,73 @@
+
+
+
+
+
+.main-menu-blocks{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.block-title{
+    align-self: flex-start; /* Align the block-title to the start (left) */
+    text-align: left; /* Align text inside block-title to the left */
+    padding: 10px; /* Add padding for better appearance */
+}
+
+.block-title h1{
+    color: rgb(165, 206, 242);
+}
+.block-title p{
+    color: rgb(165, 206, 242);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.block-elemets{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+
+.block{
+    cursor: pointer;
+    margin: 20px;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 4px black;
+}
+
+.block-images{
+    width: 50%;
+    height: 100%;
+
+}
+
+
+.block-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+
+@media(max-width:600px){
+    .block-elemets{
+        width: 100%;
+    }
+
+    .block{
+        width: 100%;
+    }
+}

@@ -1,0 +1,89 @@
+
+
+
+
+
+
+.main-selectproduct{
+    width: 100%;
+    height: 700px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.orderBy-title h1{
+    font-weight: bold;
+    color: rgb(77, 98, 98);
+}
+
+.main-product-orderedBy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+    width: 25%;
+    height: 90%;
+}
+
+.main-product-and-resturant-Info{
+    border: 1px solid red;
+    width: 70%;
+    height: 90%;
+}
+
+.orderByprice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.orderByprice label{
+    font-weight: bold;
+    color: rgb(102, 114, 122);
+}
+
+
+.orderByfoodtype{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.orderByfoodtype label{
+    font-weight: bold;
+    color: rgb(102, 114, 122);
+}
+
+.orderByoccasion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderByoccasion label{
+    font-weight: bold;
+    color: rgb(102, 114, 122);
+}
+
+
+
+
+@media(max-width:600px){
+    .main-product-and-resturant-Info{
+        width: 50%;
+    }
+
+    .main-product-orderedBy{
+        width: 50%;
+    }
+
+  
+}
