@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-
 import './selectedproduct.css';
+import Fooddetails from './fooddetails/Fooddetails';
 
 const Selectionsproduct = () => {
   const prices = ['Below 300', 'Below 500', 'Below 1000', 'Below 1500'];
@@ -99,7 +99,9 @@ const Selectionsproduct = () => {
         </div>
       </div>
 
-      <div className='main-product-and-resturant-Info'></div>
+      <div className='main-product-and-resturant-Info'>
+               <Fooddetails/>
+      </div>
     </div>
   );
 };

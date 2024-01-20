@@ -7,7 +7,6 @@
 .main-selectproduct{
     width: 100%;
     height: 700px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -28,7 +27,6 @@
 }
 
 .main-product-and-resturant-Info{
-    border: 1px solid red;
     width: 70%;
     height: 90%;
 }
@@ -73,7 +71,79 @@
     color: rgb(102, 114, 122);
 }
 
+/* seocnd side code */
 
+
+
+.main-food-details{
+    width: 90%;
+    height: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 10px;
+}
+
+
+.hotelInfo{
+    margin: 10px;
+    width: 79%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+
+.hotel-image{
+    width: 40%;
+    height: 100%;
+  
+}
+
+.hotel-image img{
+    width: 100%;
+    height: 100%; 
+}
+
+.productInfo {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.productInfo p,h1{
+    margin: 0px;
+}
+
+
+.buy-button{
+    width:100px;
+    padding: 10px;
+    background-color: rgb(244, 92, 65);
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hotel-name h1,p{
+    color: rgb(94, 120, 94);
+    margin: 0px;
+    font-weight: 900;
+}
+
+.productInfo p{
+    margin: 0px;
+    font-weight: 800;
+}
+
+
+.count {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(36, 199, 231);
+    color: white; /* Add some text color for visibility */
+    cursor: pointer;
+}
 
 
 @media(max-width:600px){
